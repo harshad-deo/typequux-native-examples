@@ -1,7 +1,13 @@
 package typequuxnative
 
+import libex._
+
 object TypequuxNative {
+
+  val delim = "\n" + ("*" * 100)
+
   def main(args: Array[String]): Unit = {
-    println("hello world")
+    println(delim)
+    RecordEx.run
   }
 }
