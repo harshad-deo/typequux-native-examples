@@ -13,7 +13,7 @@ object RecordEx {
 
     val r1AsMap = r1.toMap
     val r2AsMap = r2.toMap
-    val r3AsMap  = r3.toMap
+    val r3AsMap = r3.toMap
 
     println("""Built r1 as: RNil.add("a", List(1, 2, 3)).add("p", 42L).add("v", "unicorn")""")
     println("""Built r2 as: r1.add("x", Some("one wants you"))""")
@@ -48,7 +48,7 @@ object RecordEx {
     println("r1.size: " + r1.size)
     println("r2.size: " + r2.size)
     println("r3.size: " + r3.size)
-   
+
     println("r1.toMap: " + r1.toMap)
     println("r2.toMap: " + r2.toMap)
     println("r3.toMap: " + r3.toMap)

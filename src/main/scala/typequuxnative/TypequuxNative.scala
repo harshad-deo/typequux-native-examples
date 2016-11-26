@@ -9,5 +9,7 @@ object TypequuxNative {
   def main(args: Array[String]): Unit = {
     println(delim)
     RecordEx.run
+    println(delim)
+    HListEx.run
   }
 }
